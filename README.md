@@ -27,7 +27,7 @@ npm install
 
 3. **Configurar variables de entorno**
 
-Crear archivo `.env` en la raíz:
+Crear archivo `.env.local` en la raíz:
 
 ```env
 NEXT_PUBLIC_SUPABASE_URL=tu_supabase_url
@@ -234,6 +234,8 @@ export async function createProduct(formData: FormData) {
 # 🗄️ Backend con Supabase
 
 Este proyecto utiliza **Supabase** como backend para:
+
+- **Backend**: Supabase (PostgreSQL + Auth + RLS)
 
 - Autenticación de usuarios
 - Base de datos PostgreSQL
